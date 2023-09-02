@@ -46,13 +46,11 @@ async function renderUserRepos(login) {
 
         profileUl.appendChild(createLi)
     })
-
-    
 }
 
 const btnOtherUSer = document.querySelector("#btn_other_user")
 btnOtherUSer.addEventListener("click", () => {
-    window.location.href = "/"
+    window.location.href = "../../index.html"
 })
 
 getUserFromLocalStorage()
